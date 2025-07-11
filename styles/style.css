@@ -144,15 +144,11 @@ a {
 .btn3 {
     background-color: #4E47FF;
     color: #FFFFFF;
-    /* width: 150px;
-    height: 48px; */
     font-size: 16px;
     font-weight: bold;
     padding: 12px 36px;
     border-radius: 12px;
     border: none;
-    /* margin-left: 200px;
-    margin-bottom: 200px; */
     margin-top: 6px;
 }
 
@@ -163,9 +159,9 @@ a {
 }
 
 .part-two {
-    margin: 116px 160px 200px 141px;
+    margin: 116px 160px 0px 141px;
     padding: 50px 100px 50px 80px;
-    width: 1140px;
+    /* width: 1140px; */
     background-color: rgba(78, 71, 255, 0.1);
     border: none;
     border-radius: 10px;
@@ -174,8 +170,8 @@ a {
 
 .main-two {
     display: flex;
-    justify-content: center;
-    gap: 158px;
+    justify-content: space-around;
+    /* gap: 158px; */
 }
 
 .raw {
@@ -195,7 +191,124 @@ a {
 .raws {
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
+}
 
+/* challenge accept */
+#flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
+.cart {
+    border: none;
+    margin: 137px 150px 200px 150px;
+    /* width: 1140px; */
+}
 
+.section-tit {
+    font-size: 42px;
+    text-align: center;
+    color: #252432;
+    font-weight: 700;
+}
+
+.users-review {
+    /* width: 366px;
+    height: 243px; */
+    background-color: #F2EDED;
+    padding: 24px 24px;
+    border-radius: 14px;
+    margin-top: 50px;
+}
+
+.comment {
+    padding-top: 24px;
+    font-size: 30px;
+}
+
+.comment-description {
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+.img-sec {
+    padding-top: 24px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.modhu {
+    border-radius: 50%;
+}
+
+.re-h {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+}
+
+.re-p {
+    padding-top: 2px;
+    color: rgba(179, 179, 179, 1);
+    font-size: 12px;
+}
+
+.part-three {
+    background-color: #F7F9FC;
+    padding: 100px 150px;
+}
+
+.lets-touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    max-width: 1140px;
+    margin: 100px 150px 100px 150px;
+}
+
+.lets-start h2 {
+    font-size: 64px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.connect-form {
+    flex: 1;
+    width: 100%;
+}
+
+.read {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    align-self: flex-start;
 }
